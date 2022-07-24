@@ -1,0 +1,422 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: #1472D0;
+}
+a:hover{
+    text-decoration: underline;
+}
+li{
+    list-style: none;
+}
+body{
+    min-height: 560vh; 
+}
+
+
+nav{
+    width: 100%;
+    height: 44px;
+    background-color: #333;
+    padding: 0 16%;
+    position: sticky;
+    top: 0;
+}
+.nav_collection{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav_item{
+    list-style: none;
+    color: #ddd;
+    font-size: 12px;
+}
+.nav_item a{
+    color: inherit;
+}
+.logo i{
+    font-size: 18px;
+}
+
+.nav_bottom{
+    width: 100%;
+    height: 70px;
+    background-color: #F5F5F7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav_bottom a{
+    margin-left: 20px;
+    font-size: 14px;
+}
+
+.banner{
+    width: 100%;
+    height:560px;
+   
+
+}
+.macbook{
+background-image: url(./IMG/macair.png);
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+ }
+
+    
+   
+
+.mac_airItem{
+    padding-left: 20%;
+    padding-top: 15%;
+
+}
+.mac_airItem h1{
+    font-size: 60px;
+    padding: 10px;
+    font-weight: 500;
+}
+.mac_airItem p{
+    color: #999;
+    font-size: 18px;
+    padding:10px;
+  
+    
+}
+
+.links_con{
+    display: flex;
+}
+.link{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+ 
+}
+.link span{
+    font-size: 18px;
+}
+.link i{
+    font-size: 12px;
+    margin-left: 5px;
+}
+
+img{
+    
+}
+.mac_pro{
+  
+    background-image: url(./IMG/macpro.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat ;
+    height: 90vh;
+    text-align: center;
+       
+}
+.mac_pro h1{
+    font-size: 50px;
+    padding-top: 40px;
+    color: #fff;
+}
+.mac_pro a{
+    display: inline ;
+    padding-left: 23px;
+}
+.college{
+    text-align: center;
+    padding-top: 110px ;
+    background-image: url(./IMG/school.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat    ;
+    height: 100vh;
+    margin-top: 140px;
+}
+.college-item{
+   
+}
+
+.college h1{
+    padding: 10px ;
+    font-style: italic;
+    font-size: 50px;
+}
+
+.college p{
+    font-size: 24px;
+    padding: 10px;
+}
+  
+ .footer{
+     background-color: #F5F5F7;
+     padding: 20px 0;
+ }
+ .footer_container{
+     width: 65%;
+     margin: auto;
+ }
+ .footer_desc{
+     font-size: 12px;
+    color: #999;
+    margin-bottom: 12px;
+    }
+
+.footer_wrapper{
+    
+    display: flex;
+    border-top: 1px solid #ddd;
+    padding-top: 20px;
+}
+.footer_item{
+    width: 20%;
+    height: 100%;
+    
+}
+.footer_item h3{
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 7px;
+}
+.footer_item li{
+
+    list-style-type: none;
+    font-size: 12px;
+    line-height: 2;
+    color: #555;
+   
+}
+
+.footer_link{
+    margin-top: 30px;
+    font-size: 12px;
+    color: #555;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 8px;
+}
+.footer_bottom{
+    display: flex;
+    padding-top: 10px;
+    font-size: 13px;
+    color: #555;
+
+
+}
+.footer_bottom ul{
+    display: flex;
+    flex: 1;
+
+}
+.footer_bottom ul li{
+    margin-left: 15px;
+    padding-right: 15px;
+    border-right: 1px solid #ddd;
+
+}
+.ipad{
+
+background-image: url(./IMG/promo_ipadair_avail__ferd4bfpcdm6_large.jpg);
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+width: 48.5%;
+height: 80vh;
+display:inline-block    ;
+
+
+}
+.ipad  .air{
+    padding-left: 40%;
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 700;
+    padding-top: 20px;
+}
+.ipad  .air span{
+    font-family:cursive;
+    color: rgb(135, 37, 201);
+
+}
+
+ .ipad .snt{
+
+    padding-left: 33%;
+    color: #fff;
+    font-size: 20px;
+    padding-top: 12px;
+     padding-bottom: 12px;                   }
+
+            
+
+ .ipad .aa{
+    list-style-type: none;
+    padding-left: 37%;
+     
+ }
+ .ipad .link6{
+
+        padding-left: 12px;
+        
+      }
+.watch{
+    background-image: url(./IMG/promo_watch_lte__djeaso7ukrsm_large.jpg);
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+width: 48.5%;
+height: 80vh;
+display: inline-block;
+
+}
+
+.watch_item{
+
+        padding-left: 43%;
+}
+.watch_item p{
+    padding-top: 10px;
+    padding-right: 10%;
+    font-weight: 400;
+}
+.bb{
+    display: flex;
+    gap: 19px;
+    padding-left: 45%;
+    padding-top: 6px;
+}
+.iphone_13{
+    background-image: url(./IMG/hero_iphone13_avail__gnqqkzuai6um_large.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 48.5%;
+    height: 80vh;
+    display: inline-block;
+    
+}
+
+.iphone_13_item{
+    padding-left: 40%;
+    padding-top: 50px;
+    
+}
+.iphone_13_item h1{
+    font-size: 38px;
+    color: #222;
+    padding-bottom: 10px;
+}
+.iphone_13_item p{
+    padding-bottom: 10px;
+    padding-left:-4% ;
+   font-size: 18px;
+}
+.cc{
+    display: flex;
+    gap: 18px;
+}
+.iphone_13_pro{
+    display: inline-block;
+    background-image: url(./IMG/promo_iphone13pro_avail__beadms4ldidu_large.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 48.5%;
+    height: 70vh;
+}
+
+.iphone_13_pro_item{
+    padding-left: 35%;
+}
+.iphone_13_pro_item h1{
+    font-size: 38px;
+    padding-bottom: 10px;
+}
+.iphone_13_pro_item p{
+    padding-left: 20%;
+    font-size: 18px;
+    padding-bottom: 12px;
+}
+
+.dd{
+    display: flex;
+    gap: 18px;
+    padding-left: 20px;
+}
+.card{
+    display: inline-block;
+    background-image: url(./IMG/card.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 48.5%;
+    height: 80vh;
+}
+.card_item{
+    padding-left: 44%;
+    padding-top: 1.5rem;
+}
+.card_item h1{
+    padding-bottom:5px;
+}
+
+.card_item .p1{
+    padding-bottom: 5px;
+   font-size: 20px;
+   margin-left: -16%;
+}
+.card_item .p2{
+    padding-bottom: 5px;   
+    font-size: 20px;
+    margin-left: -8%;
+
+}
+.ee{
+    display: flex;
+    gap: 22px;
+    margin-left: -8%;
+
+}
+.girl_img{
+    display: inline-block;
+    background-image: url(./IMG/promo_katy_perry__eqekd92guu4i_large.jpg);
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 48.5%;
+    height: 80vh;
+}
+.girl_img_item{
+    padding-left: 35%;
+    padding-top: 35px;
+}
+.girl_img_item p{
+    font-size: 18px;
+    color: #fff;
+    font-weight: 520;
+   
+}
+.girl_img_item .p3{
+    margin-right: 20%;
+    padding-bottom: 5px;
+}
+.girl_img_item .p4{
+    padding-bottom: 5px;
+}
+.ff span{
+    color: #cee009  ;
+}
+
+
+    
+
